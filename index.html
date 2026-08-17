@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Robyn Hammond — Cover Letter</title>
+<style>
+  :root{
+    --wine:#6b1530;
+    --wine-deep:#4a0e21;
+    --ink:#1c1a1b;
+    --paper:#ffffff;
+    --stone:#f4f2f0;
+    --line: rgba(28,26,27,0.13);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--stone);
+    color:var(--ink);
+    font-family:Arial, Helvetica, "Segoe UI", sans-serif;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+  .sheet{max-width:820px; margin:0 auto; background:var(--paper);}
+
+  .hero{
+    background:var(--wine);
+    color:#fff;
+    padding:44px 64px 36px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::after{
+    content:"";
+    position:absolute;
+    right:-60px; top:-60px;
+    width:220px; height:220px;
+    border-radius:50%;
+    border:1.5px solid rgba(255,255,255,0.18);
+  }
+  .hero-text{max-width:600px;}
+  .name{
+    font-size:clamp(30px, 5vw, 40px);
+    font-weight:900;
+    letter-spacing:-0.5px;
+    margin:0 0 4px;
+  }
+  .role-tag{
+    font-size:12.5px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:#f0d9de;
+    margin:0 0 18px;
+    padding-right:110px;
+  }
+  .contact-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px 20px;
+    font-size:12.5px;
+    color:#fff;
+    opacity:0.92;
+    border-top:1px solid rgba(255,255,255,0.28);
+    padding-top:14px;
+  }
+  .stamp{
+    position:absolute;
+    right:48px; top:38px;
+    width:76px; height:76px;
+    border:2px solid #fff;
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    background:rgba(255,255,255,0.06);
+    padding:8px;
+  }
+  .stamp-inner{
+    text-align:center;
+    font-size:6px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    line-height:1.4;
+    color:#fff;
+    max-width:58px;
+  }
+  .stamp-inner strong{
+    display:block;
+    font-size:15px;
+    font-weight:900;
+    letter-spacing:1px;
+    margin:1px 0;
+  }
+  @media (max-width:640px){
+    .stamp{display:none;}
+    .role-tag{padding-right:0;}
+    .hero{padding:32px 26px 26px;}
+  }
+
+  .body-pad{padding:44px 64px 64px;}
+  @media (max-width:640px){ .body-pad{padding:30px 24px 48px;} }
+
+  .letter p{font-size:15px; margin:0 0 18px;}
+  .letter p:last-of-type{margin-bottom:0;}
+  .sign{margin-top:8px;}
+  .sign .role-line{
+    font-size:12.5px;
+    color:#6b6668;
+    font-weight:700;
+    letter-spacing:0.3px;
+    margin-top:2px;
+  }
+
+  .print-btn-row{
+    display:flex;
+    justify-content:flex-end;
+    margin-top:12px;
+  }
+  .print-btn{
+    background:transparent;
+    color:#fff;
+    border:1.5px solid rgba(255,255,255,0.7);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:0.4px;
+    padding:8px 14px;
+    border-radius:8px;
+    cursor:pointer;
+    display:inline-flex;
+    align-items:center;
+    gap:7px;
+    transition:background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  }
+  .print-btn:hover{background:#fff; color:var(--wine); border-color:#fff;}
+  .print-btn svg{width:13px; height:13px;}
+
+  @media print{
+    .print-btn{display:none;}
+    body{background:#fff;}
+    .sheet{max-width:100%;}
+    .hero{-webkit-print-color-adjust:exact; print-color-adjust:exact;}
+  }
+
+  footer{
+    margin-top:40px; padding-top:16px; border-top:1px solid var(--line);
+    font-size:10.5px; font-weight:700; letter-spacing:1px; text-transform:uppercase;
+    color:#8a8587; text-align:center;
+  }
+  .cross-link{
+    display:block;
+    text-align:center;
+    margin-top:10px;
+  }
+  .cross-link a{
+    color:var(--wine);
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:0.3px;
+    text-decoration:none;
+    text-transform:none;
+    border-bottom:1.5px solid var(--wine);
+    padding-bottom:1px;
+    transition:opacity 0.2s ease;
+  }
+  .cross-link a:hover{opacity:0.7;}
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="hero">
+    <div class="stamp">
+      <div class="stamp-inner">Cape Town<strong>RH</strong>South Africa</div>
+    </div>
+    <div class="hero-text">
+      <h1 class="name">Robyn Hammond</h1>
+      <p class="role-tag">Operations Specialist &amp; CRM Consultant · Travel &amp; Hospitality</p>
+      <div class="contact-row">
+        <span>Cape Town, South Africa</span>
+        <span>robsloveberry@gmail.com</span>
+        <span>linkedin.com/in/robynhammond-ops-specialist</span>
+      </div>
+    </div>
+    <div class="print-btn-row">
+      <button class="print-btn" onclick="window.print()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+        Print / Save as PDF
+      </button>
+    </div>
+  </div>
+
+  <div class="body-pad">
+    <div class="letter">
+      <p>Dear Hiring Manager,</p>
+
+      <p>I'm applying for the Director of Customer Journey, Operations &amp; Systems role. Travel matters to me because it lets you see the world and all its wonder, meet new people, and truly feel alive, away from deadlines and the normal woes of everyday life. Bespoke luxury travel is where my career started, and it's the piece I've missed most since moving into broader operations and CRM work. This role is the first one I've seen in a while that brings both halves of that back together.</p>
+
+      <p>For the last four years, I've worked as an independent operations consultant supporting three travel businesses at once. I built CRM foundations from scratch for one client with no prior base in place, contribute to digital strategy and automation for another, and bring operational judgement from over a decade in African safari travel operations to a third, understanding first-hand that a team can't spend time on admin when they have a client stranded and needing help. My involvement varies by account, hands-on and close to the day-to-day for some, more strategic for others, working through regular contact with each team. Before that, I spent over a decade in operational and reservations leadership in the travel industry, including at a bespoke African travel operator, so the customer-journey-from-booking-to-travel piece of this role isn't new territory, it's the work I've built my career around.</p>
+
+      <p>A few things about this role specifically stood out to me:</p>
+
+      <p>Owning the customer journey end to end, from enquiry through to post-trip, is exactly the kind of work I do for my current clients, just at a bigger scale and with one business instead of three sharing my attention. I'd be glad to give one company the full depth of what I currently spread across several.</p>
+
+      <p>The emphasis on CRM, automation and AI-driven efficiency is squarely where I already work. I taught myself the Freshworks suite (Freshsales, Freshchat, Freshmarketer, Freddy AI) from scratch and have since built and supported workflow automation and chatbot deployment for several travel businesses. I haven't worked in Airtable or SendGrid specifically, but I've used Freshmarketer for email automation, a comparable platform, and I pick up new systems quickly, so I'd bring that same appetite here.</p>
+
+      <p>Mentoring and developing a Head of Operations, and sitting on a senior leadership team, is a step up in scope from where I sit today, and it's exactly the kind of growth I'm looking for. I've led teams and trained consultants throughout my career, and I'm ready to do that at this level.</p>
+
+      <p>I also genuinely love working alongside the people who make the sale, and building the systems and support that let them deliver it well. That's the part of this job I'd enjoy most: being behind the scenes making sure a beautifully planned trip actually runs the way it was promised.</p>
+
+      <p>I've spent the last several years being the person who keeps the systems running for other people's businesses. I'd welcome the chance to bring that same ownership to one company, full time, and to work in bespoke travel again properly, not just adjacent to it.</p>
+
+      <p>I'd welcome the opportunity to discuss how my background could support your team.</p>
+
+      <div class="sign">
+        <p>Kind regards,</p>
+        <p style="margin-bottom:0;">Robyn Hammond</p>
+        <div class="role-line">Operations Specialist &amp; CRM Consultant</div>
+      </div>
+    </div>
+
+    <footer>Robyn Hammond · Cover Letter</footer>
+    <div class="cross-link"><a href="PASTE-CV-LINK-HERE" target="_blank" rel="noopener">View my CV →</a></div>
+  </div>
+</div>
+</body>
+</html>
